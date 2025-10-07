@@ -1,1 +1,541 @@
 <!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>oneryapimarket</title><h1>Merhaba, çalıştı! 🚀</h1>
+<!DOCTYPE html>
+<!-- saved from url=(0065)file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html -->
+<html lang="tr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri</title>
+    <script src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/saved_resource"></script>
+    <link rel="stylesheet" href="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/all.min.css">
+    <link href="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/css2" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            /* GÖRSEL GÜNCELLENDİ - Daha güvenilir bir link kullanıldı. */
+            background-image: linear-gradient(rgba(18, 26, 49, 0.5), rgba(18, 26, 49, 0.5)), url('https://images.unsplash.com/photo-1518895526622-4a3a5c6411b4?q=80&w=1920&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .brand-logo {
+            transition: transform 0.3s ease, filter 0.3s ease;
+            filter: grayscale(100%);
+            opacity: 0.8;
+        }
+        .brand-logo:hover {
+            transform: scale(1.1);
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .close-button {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close-button:hover,
+        .close-button:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .category-card a {
+            display: block;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .category-card a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 25px;
+            left: 25px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            z-index: 100;
+        }
+        .whatsapp-button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.bottom-0{bottom:0px}.right-2{right:0.5rem}.top-0{top:0px}.top-2{top:0.5rem}.z-10{z-index:10}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-10{margin-left:2.5rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-20{height:5rem}.h-48{height:12rem}.h-52{height:13rem}.h-\[600px\]{height:600px}.w-6{width:1.5rem}.w-full{width:100%}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-lg{max-width:32rem}.flex-shrink-0{flex-shrink:0}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-8{gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-500{--tw-border-opacity:1;border-color:rgb(107 114 128 / var(--tw-border-opacity, 1))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99 / var(--tw-border-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity, 1))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.bg-orange-500{--tw-bg-opacity:1;background-color:rgb(249 115 22 / var(--tw-bg-opacity, 1))}.bg-purple-600{--tw-bg-opacity:1;background-color:rgb(147 51 234 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21 / var(--tw-bg-opacity, 1))}.bg-opacity-60{--tw-bg-opacity:0.6}.object-cover{object-fit:cover}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-3{padding-bottom:0.75rem}.pt-2{padding-top:0.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.text-orange-500{--tw-text-opacity:1;color:rgb(249 115 22 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-shadow{transition-property:box-shadow;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-500{transition-duration:500ms}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.hover\:bg-orange-600:hover{--tw-bg-opacity:1;background-color:rgb(234 88 12 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-700:hover{--tw-bg-opacity:1;background-color:rgb(126 34 206 / var(--tw-bg-opacity, 1))}.hover\:bg-yellow-500:hover{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity, 1))}.hover\:text-orange-700:hover{--tw-text-opacity:1;color:rgb(194 65 12 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:shadow-2xl:hover{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:border-transparent:focus{border-color:transparent}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-orange-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(249 115 22 / var(--tw-ring-opacity, 1))}.focus\:ring-purple-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(168 85 247 / var(--tw-ring-opacity, 1))}.focus\:ring-white:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255 / var(--tw-ring-opacity, 1))}.focus\:ring-yellow-400:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(250 204 21 / var(--tw-ring-opacity, 1))}.focus\:ring-offset-2:focus{--tw-ring-offset-width:2px}.focus\:ring-offset-gray-800:focus{--tw-ring-offset-color:#1f2937}.group:hover .group-hover\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@media (min-width: 640px){.sm\:w-auto{width:auto}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.sm\:px-3{padding-left:0.75rem;padding-right:0.75rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:block{display:block}.md\:hidden{display:none}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:text-7xl{font-size:4.5rem;line-height:1}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 1024px){.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\:grid-cols-6{grid-template-columns:repeat(6, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style></head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0">
+                    <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/index.html" class="text-2xl font-bold text-gray-900">ÖNER YAPI &amp; HIRDAVAT</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#hero" class="text-gray-600 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Ana Sayfa</a>
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#urunler" class="text-gray-600 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Ürünler</a>
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#hizmetler" class="text-gray-600 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Hizmetlerimiz</a>
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#markalar" class="text-gray-600 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Markalar</a>
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#blog" class="text-gray-600 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#iletisim" class="text-gray-600 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">İletişim</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                        <span class="sr-only">Menüyü aç</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="md:hidden hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#hero" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Ana Sayfa</a>
+                <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#urunler" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Ürünler</a>
+                <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#hizmetler" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Hizmetlerimiz</a>
+                <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#markalar" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Markalar</a>
+                <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#blog" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>
+                <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#iletisim" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">İletişim</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-bg h-[600px] flex items-center justify-start">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left text-white">
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-4 text-shadow-lg">HIRDAVATA<br>DAİR HER ŞEY</h1>
+                <p class="text-lg md:text-xl mb-8 max-w-lg">Aradığınız tüm hırdavat ve yapı malzemeleri bir tık uzağınızda.</p>
+                <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/web_site.html#urunler" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-full text-lg transition duration-300 transform hover:scale-105 inline-block">
+                    Şimdi Keşfet
+                </a>
+            </div>
+        </section>
+
+        <!-- Ürün Gruplarımız -->
+        <section id="urunler" class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Ürün Gruplarımız</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+                    <!-- Kategori Kartları -->
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/barbeku.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/barbeku.png" alt="Barbekü" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Barbeküler ve Mangallar</div>
+                        </a>
+                    </div>
+                     <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/beton-cesmeler.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1595701652159-15894142315b" alt="Beton Çeşmeler ve Çiçeklikler" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Beton Çeşmeler ve Çiçeklikler</div>
+                        </a>
+                    </div>
+                     <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/ates-tugla.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                           <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/barbeku.png" alt="Barbekü" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Ateş Tuğla ve Gazbeton</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/vitrifiye.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1600607687939-ce8a67765e5c" alt="Vitrifiye Grubu" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Vitrifiye Grubu</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/hirdavat.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1621993206342-53215a283995" alt="Hırdavat Grubu" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Hırdavat Grubu</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/kompozit-kapak.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1599811440286-9a0f23825838" alt="Kompozit ve Pik Kapak Grubu" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Kompozit ve Pik Kapak</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/yapi-kimyasallari.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1607968524131-a538234a3692" alt="Yapı Kimyasalları Grubu" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Yapı Kimyasalları</div>
+                        </a>
+                    </div>
+                     <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/silikon.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1617154622728-a40d5141ce43" alt="Silikon Grubu" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Silikon Grubu</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/plastik-boru.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1616162343209-901765084534" alt="Plastik ve Pprc Boru" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Plastik ve Pprc Boru</div>
+                        </a>
+                    </div>
+                     <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/alcipan-profil.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1598991723253-06275a5e8486" alt="Profil ve Alçıpan" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Profil ve Alçıpan</div>
+                        </a>
+                    </div>
+                     <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/kutu-profil.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1596910162215-ac9930113824" alt="Kutu Profil Grubu" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Kutu Profil Grubu</div>
+                        </a>
+                    </div>
+                     <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/boya.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1579778735113-d437c352a7e5" alt="Boya ve Malzemeleri" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <button class="absolute top-2 right-2 bg-purple-600 text-white p-2 rounded-full hover:bg-purple-700 transition-all duration-300 transform hover:scale-110 focus:outline-none z-10" onclick="event.preventDefault(); openColorModal()">
+                                <i class="fas fa-palette"></i>
+                            </button>
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Boya ve Malzemeleri</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/fayans-profil.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1618374582882-7d2d35a39627" alt="Fayans Profil Ekipmanları" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Fayans Profil Ekipmanları</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/stropiyer.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1603953585890-9a2533b1e3e5" alt="Stropiyer ve Kartonpiyer" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Stropiyer ve Kartonpiyer</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/parke-profil.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1542323282-c529a123630f" alt="Parke Profil ve Aksesuarları" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Parke Profil ve Aksesuarları</div>
+                        </a>
+                    </div>
+                     <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/bahce-urunleri.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1591654191146-e575a805f25b" alt="Bahçe Ürünleri" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Bahçe Ürünleri</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/dekoratif-mermer.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1620405293455-d450841e18a0" alt="Dekoratif Mermer Setleri" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Dekoratif Mermer Setleri</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/tesisat.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1586282393633-14c11438965f" alt="Tesisat Ürünleri" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Tesisat Ürünleri</div>
+                        </a>
+                    </div>
+                    <div class="category-card">
+                        <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/kum-mozaik.html" class="relative overflow-hidden rounded-xl shadow-lg group block">
+                            <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1542847685-23466186b5c9" alt="Kum, Mozaik ve Çakıl" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center py-3 font-semibold">Kum, Mozaik ve Çakıl</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Usta Tavsiyesi: Sorun Çözücü (Yapay Zeka) -->
+        <section id="sorun-cozucu" class="py-16 bg-white">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <i class="fas fa-brain text-4xl text-orange-500 mb-4"></i>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Usta Tavsiyesi: Sorun Çözücü</h2>
+                <p class="text-gray-600 mb-6">Tadilat veya tamiratla ilgili bir sorununuz mu var? Bize yazın, yapay zeka destekli ustamız çözüm adımlarını ve gerekli malzemeleri sizin için listelesin.</p>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-inner">
+                    <textarea id="problemInput" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" rows="4" placeholder="Örnek: Banyodaki derz araları karardı, nasıl temizleyip yenileyebilirim?"></textarea>
+                    <button id="solveProblemBtn" class="mt-4 bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105 w-full sm:w-auto">
+                        Çözüm Önerisi Al
+                    </button>
+                    <div id="problemResult" class="mt-6 text-left bg-white p-5 rounded-lg border border-gray-200" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Akıllı Proje Danışmanı (Yapay Zeka) -->
+        <section id="hizmetler" class="py-16 bg-gray-800 text-white">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <i class="fas fa-lightbulb text-4xl text-yellow-400 mb-4"></i>
+                <h2 class="text-3xl font-bold mb-4">Akıllı Proje Danışmanı</h2>
+                <p class="text-gray-300 mb-6">Aklınızdaki projeyi anlatın, yapay zeka destekli danışmanımız size özel malzeme listesi, gerekli aletleri ve temel adımları anında hazırlasın!</p>
+                <div class="bg-gray-700 p-6 rounded-xl shadow-lg">
+                    <textarea id="projectInput" class="w-full p-3 border border-gray-500 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent transition bg-gray-800 text-white" rows="4" placeholder="Örnek: Çocuk odası için ahşap bir kitaplık yapmak istiyorum."></textarea>
+                    <button id="generateListBtn" class="mt-4 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105 w-full sm:w-auto">
+                        Malzeme Listesi Oluştur
+                    </button>
+                    <div id="projectResult" class="mt-6 text-left bg-gray-800 p-5 rounded-lg border border-gray-600" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Çözüm Ortaklarımız / Markalar -->
+        <section id="markalar" class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Çözüm Ortaklarımız</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/filliboya.com.indir" alt="Filli Boya Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/marshallboya.com.tr" alt="Marshall Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/eca.com.tr" alt="ECA Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/weber.com.tr" alt="Weber Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/vitra.com.tr" alt="Vitra Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/knauf.com.tr" alt="Knauf Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/polisan.com.tr" alt="Polisan Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/firat.com.indir" alt="Fırat Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/sista.com.tr" alt="Sista Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/bosch.com.tr" alt="Bosch Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/dyo.com.tr" alt="Dyo Logo" class="brand-logo mx-auto">
+                    <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/kalekim.com.tr" alt="Kalekim Logo" class="brand-logo mx-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Faydalı Bilgiler &amp; İpuçları</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                        <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1600607687939-ce8a67765e5c(1)" class="w-full h-48 object-cover" alt="Banyo Tadilatı">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Banyonuzu Yenilemek İçin 5 İpucu</h3>
+                            <p class="text-gray-600 mb-4">Düşük bütçeyle banyonuza nasıl modern bir görünüm kazandırabileceğinizi öğrenin.</p>
+                            <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/blog-banyo-tadilat.html" class="text-orange-500 hover:text-orange-700 font-semibold">Devamını Oku →</a>
+                        </div>
+                    </div>
+                     <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                        <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1519751138087-5bf79df62d5b" class="w-full h-48 object-cover" alt="Duvar Boyama">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Doğru Duvar Boyası Nasıl Seçilir?</h3>
+                            <p class="text-gray-600 mb-4">Renk seçimi, boya türleri ve uygulama teknikleri hakkında bilmeniz gereken her şey.</p>
+                            <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/blog-duvar-boyama.html" class="text-orange-500 hover:text-orange-700 font-semibold">Devamını Oku →</a>
+                        </div>
+                    </div>
+                     <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                        <img src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/photo-1461354464878-ad92f492a5a0" class="w-full h-48 object-cover" alt="Bahçe Bakımı">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Bahar İçin Bahçe Bakım Rehberi</h3>
+                            <p class="text-gray-600 mb-4">Bahçenizi yaza hazırlamak için adım adım yapılması gerekenler ve ürün önerileri.</p>
+                            <a href="file:///C:/Users/Esra%20Elektrolojik/Desktop/deneme/blog-bahce-bakimi.html" class="text-orange-500 hover:text-orange-700 font-semibold">Devamını Oku →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- İletişim -->
+        <section id="iletisim" class="py-16 bg-gray-800 text-white">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4">Bize Ulaşın</h2>
+                        <p class="text-gray-300 mb-6">Soru, görüş ve siparişleriniz için bizimle iletişime geçebilirsiniz. Uzman ekibimiz size yardımcı olmaktan mutluluk duyar.</p>
+                        <div class="space-y-4">
+                            <p class="flex items-center"><i class="fas fa-map-marker-alt w-6 text-yellow-400"></i><span>Yıldırım Beyazıt, 06145 Pursaklar/Ankara, Türkiye</span></p>
+                            <p class="flex items-center"><i class="fas fa-phone w-6 text-yellow-400"></i><span>+90 539 951 79 10</span></p>
+                            <p class="flex items-center"><i class="fas fa-envelope w-6 text-yellow-400"></i><span>info@oneryapi.com.tr</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <iframe src="./Öner Yapı Market &amp; Hırdavat - İnşaat ve Tadilat Çözümleri_files/embed.html" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-xl"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>© 2024 Öner Yapı Market &amp; Hırdavat. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/905399517910" target="_blank" title="WhatsApp Destek Hattı" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Renk Paleti Modal -->
+    <div id="colorModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeColorModal()">×</span>
+            <div class="text-center">
+                 <i class="fas fa-palette text-4xl text-purple-600 mb-4"></i>
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Renk Paleti Asistanı</h2>
+                <p class="text-gray-600 mb-6">Hayalinizdeki odanın atmosferini veya sevdiğiniz bir objeyi tarif edin, size özel renk paletleri oluşturalım.</p>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-inner">
+                    <textarea id="colorInput" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition" rows="3" placeholder="Örnek: Gün batımının sıcak tonlarını içeren, huzurlu bir yatak odası."></textarea>
+                    <button id="generateColorBtn" class="mt-4 bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105 w-full sm:w-auto">
+                        Renk Paleti Öner
+                    </button>
+                    <div id="colorResult" class="mt-6 text-left bg-white p-5 rounded-lg border border-gray-200" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    // Mobil menü
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    // Gemini API Çağrısı için genel fonksiyon
+    async function callGemini(prompt, resultElement, buttonElement) {
+        // API Key'i boş bırakıyoruz, sistem tarafından sağlanacak.
+        const apiKey = "";
+        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+        
+        resultElement.style.display = 'block';
+        resultElement.innerHTML = `<div class="flex items-center justify-center"><i class="fas fa-spinner fa-spin text-2xl text-gray-500"></i><p class="ml-3 text-gray-600">Yapay zeka sizin için düşünüyor...</p></div>`;
+        buttonElement.disabled = true;
+
+        try {
+            const payload = {
+                contents: [{ parts: [{ text: prompt }] }],
+            };
+
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+
+            if (!response.ok) {
+                throw new Error(`API Hatası: ${response.statusText}`);
+            }
+
+            const result = await response.json();
+            const text = result.candidates[0].content.parts[0].text;
+            
+            // Markdown'ı HTML'e çevir
+            let htmlContent = text
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') 
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')       
+                .replace(/### (.*?)\n/g, '<h3 class="text-xl font-bold mt-4 mb-2 text-gray-800">$1</h3>')
+                .replace(/## (.*?)\n/g, '<h2 class="text-2xl font-bold mt-5 mb-3 text-gray-900">$1</h2>')
+                .replace(/(\d+\.) (.*?)(?=\n\d+\.|\n\n|$)/g, '<li class="mb-2 ml-4">$1 $2</li>') 
+                .replace(/^- (.*?)(?=\n-|\n\n|$)/gm, '<li class="mb-2 ml-4 list-disc">$1</li>');
+                
+            resultElement.innerHTML = htmlContent.replace(/\n/g, '<br>');
+
+        } catch (error) {
+            console.error('Gemini API Çağrısı Başarısız:', error);
+            resultElement.innerHTML = '<p class="text-red-500">Üzgünüz, bir hata oluştu. Lütfen daha sonra tekrar deneyin.</p>';
+        } finally {
+            buttonElement.disabled = false;
+        }
+    }
+
+    // Proje Danışmanı
+    const generateListBtn = document.getElementById('generateListBtn');
+    const projectInput = document.getElementById('projectInput');
+    const projectResult = document.getElementById('projectResult');
+
+    if(generateListBtn) {
+        generateListBtn.addEventListener('click', () => {
+            if (projectInput.value.trim() === "") {
+                projectResult.style.display = 'block';
+                projectResult.innerHTML = '<p class="text-red-500">Lütfen proje fikrinizi girin.</p>';
+                return;
+            }
+            const prompt = `Bir yapı marketin proje danışmanı olarak, kullanıcının şu projesi için gerekli malzemeleri, aletleri ve temel adımları detaylı bir şekilde listele: "${projectInput.value}". Cevabını başlıklar (Malzemeler, Gerekli Aletler, Adımlar) kullanarak ve markdown formatında düzenle.`;
+            callGemini(prompt, projectResult, generateListBtn);
+        });
+    }
+    
+    // Sorun Çözücü
+    const solveProblemBtn = document.getElementById('solveProblemBtn');
+    const problemInput = document.getElementById('problemInput');
+    const problemResult = document.getElementById('problemResult');
+    
+    if(solveProblemBtn){
+        solveProblemBtn.addEventListener('click', () => {
+            if (problemInput.value.trim() === "") {
+                problemResult.style.display = 'block';
+                problemResult.innerHTML = '<p class="text-red-500">Lütfen çözmek istediğiniz sorunu girin.</p>';
+                return;
+            }
+            const prompt = `Bir yapı marketin tecrübeli bir ustası olarak, kullanıcının şu sorununa çözüm adımlarını ve gerekli malzemeleri detaylı bir şekilde anlat: "${problemInput.value}". Cevabını başlıklar (Sorunun Tespiti, Gerekli Malzemeler, Çözüm Adımları) kullanarak ve markdown formatında düzenle.`;
+            callGemini(prompt, problemResult, solveProblemBtn);
+        });
+    }
+
+
+    // Renk Paleti Asistanı
+    const generateColorBtn = document.getElementById('generateColorBtn');
+    const colorInput = document.getElementById('colorInput');
+    const colorResult = document.getElementById('colorResult');
+
+    if(generateColorBtn) {
+        generateColorBtn.addEventListener('click', () => {
+            if (colorInput.value.trim() === "") {
+                colorResult.style.display = 'block';
+                colorResult.innerHTML = '<p class="text-red-500">Lütfen bir atmosfer veya tema belirtin.</p>';
+                return;
+            }
+            const prompt = `Bir iç mimar ve renk uzmanı olarak, kullanıcının şu isteğine uygun 3 farklı renk paleti öner: "${colorInput.value}". Her palet için bir ana renk, iki yardımcı renk ve bir vurgu rengi belirt. Renkleri (örneğin "Puslu Mavi", "Sıcak Bej") ve kısa açıklamalarını markdown formatında sun.`;
+            callGemini(prompt, colorResult, generateColorBtn);
+        });
+    }
+    
+    // Modal Kontrolleri
+    const colorModal = document.getElementById('colorModal');
+    function openColorModal() {
+        if(colorModal) colorModal.style.display = "block";
+    }
+    function closeColorModal() {
+        if(colorModal) colorModal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == colorModal) {
+            closeColorModal();
+        }
+    }
+
+</script>
+
+
+
+
+</body></html>
